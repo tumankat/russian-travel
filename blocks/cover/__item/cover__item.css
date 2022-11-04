@@ -28,7 +28,7 @@
     bottom: 0;
     z-index: -1;
     transition: 0.5s;
-    border: 1px solid red;
+   
 }
 
 .cover__item:hover::before {
@@ -50,7 +50,7 @@
 
 @media screen and (max-width:568px) {
     .cover__item {
-        min-height: 200px;‘
+        min-height: 200px;
     }
 }
 

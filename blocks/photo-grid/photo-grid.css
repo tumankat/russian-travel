@@ -1,5 +1,5 @@
 .photo-grid {
-    max-width: calc(vw-padding);
+    max-width: calc(vw - padding);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 0 92px;
@@ -7,7 +7,7 @@
     padding: 0 48px;
     box-sizing: border-box;
     justify-items: center;
-    border: 1px solid red; 
+    
 }
 
 @media screen and (max-width: 1124px) {

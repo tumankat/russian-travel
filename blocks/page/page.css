@@ -10,5 +10,16 @@
     flex-direction: column;
     margin: 0 auto;
     padding: 28px 0 24px;
-    border: 1px solid red;
+    box-sizing: border-box;
+    
+}
+
+
+
+@media screen and (max-width: 568px) {
+    .page {
+        padding: 16px 0 24px;  
+        
+        
+    }
 }

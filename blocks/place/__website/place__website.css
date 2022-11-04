@@ -1,7 +1,14 @@
 .place__website {
    align-self: flex-end;
-   border: 1px solid red;
-    
    
+  }
 
+  @media screen and (max-width: 568px) {
+   .place__website {
+      margin-left: 16px;
+      margin-right: 16px;
+      align-items: flex-start;
+
+ 
+   }
 }

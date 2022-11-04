@@ -1,5 +1,5 @@
 .page__content {
+ width: calc(100vw - padding); 
    
-   border: 1px solid red;
 }
 

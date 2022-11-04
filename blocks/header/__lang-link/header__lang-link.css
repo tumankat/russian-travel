@@ -4,14 +4,14 @@
     line-height: 28px;
     font-weight: 400;
     width: 30px;
-    height: 28px;
-    border: 1px solid red;
+    margin-right: 18px;
+    
 }
 
 .header__lang-link:last-of-type {
     text-decoration: none;
     width: 29px;
-    border: 1px solid red;
+ 
 
 }
 
@@ -19,7 +19,6 @@
 @media screen and (max-width: 568px) {
     .header__lang-link {
         width: 22px;
-        height: 20px;
         font-size: 18px;
         line-height: 20px;
         font-weight: 400;
