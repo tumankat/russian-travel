@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: minmax(460px, 1fr) minmax(484px, 1fr);
     gap: 48px 40px;
-    margin-bottom: 80px;
+    margin: 0 auto 80px;
     
 
  }
@@ -18,26 +18,28 @@
     .place  {
         grid-template-columns: minmax(440px, 1fr) minmax(456px, 1fr);
         gap: 48px 32px;
+        margin: 0 48px 80px;
+      
     } 
     }
 
 
-@media screen and (max-width: 964px) {
+@media screen and (max-width: 1000px) {
     .place {
         grid-template-columns: minmax(340px, 1fr) minmax(352px, 1fr);
         gap: 48px 28px;
-        margin-bottom: 73px; 
+        margin: 0 24px 73px; 
     }
 }
 
 
-
-@media screen and (max-width: 746px) {
+@media screen and (max-width: 765px) {
     .place {
         grid-template-columns: 100%;
         gap: 32px;
-        margin-bottom: 50px;
+        margin: 0 16px 50px;
   
     }
 }
+
 

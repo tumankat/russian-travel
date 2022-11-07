@@ -23,6 +23,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap:16px;
         padding: 0 24px;
+        margin-bottom: 88px;
     }
 }
 
@@ -31,6 +32,7 @@
         grid-template-columns: 100%;
         grid-gap: 12px;
         padding: 0 16px;
+        margin-bottom: 64px;
   
     }
 }
