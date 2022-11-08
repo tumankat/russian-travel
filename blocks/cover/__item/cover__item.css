@@ -14,11 +14,10 @@
     background-size: cover;
     position: relative;
     z-index: 1;
-
 }
 
 .cover__item::before {
-    content: '';
+    content: "";
     background: #2a2c2f;
     opacity: 0.3;
     position: absolute;
@@ -28,29 +27,26 @@
     bottom: 0;
     z-index: -1;
     transition: 0.5s;
-   
 }
 
 .cover__item:hover::before {
     opacity: 0.8;
-    
 }
 
-@media screen and (max-width:1124px) {
+@media screen and (max-width: 1124px) {
     .cover__item {
         min-height: 640px;
     }
 }
 
-@media screen and (max-width:964px) {
+@media screen and (max-width: 964px) {
     .cover__item {
         min-height: 480px;
     }
 }
 
-@media screen and (max-width:568px) {
+@media screen and (max-width: 568px) {
     .cover__item {
         min-height: 200px;
     }
 }
-

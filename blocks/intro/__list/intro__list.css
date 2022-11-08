@@ -9,14 +9,8 @@
    
 }
 
-@media screen and (max-width: 1124px) {
-    .intro {
-       font-weight: 700;
-    }
-}
-
 @media screen and (max-width: 964px) {
-    .intro {
+    .intro__list {
         max-width: 720px;
        
     }
@@ -25,8 +19,6 @@
 @media screen and (max-width: 700px) {
     .intro__list {
         width: 288px;
-       font-size: 12px;
-       line-height: 18px;
-       font-weight: 700;
+      
     }
 }

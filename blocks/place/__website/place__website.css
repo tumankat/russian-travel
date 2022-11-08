@@ -1,14 +1,11 @@
 .place__website {
    align-self: flex-end;
-   
-  }
+}
 
-  @media screen and (max-width: 568px) {
+@media screen and (max-width: 568px) {
    .place__website {
-      margin-left: 16px;
-      margin-right: 16px;
-      align-items: flex-start;
-
- 
+       margin-left: 16px;
+       margin-right: 16px;
+       align-items: flex-start;
    }
 }

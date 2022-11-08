@@ -3,27 +3,19 @@
     font-size: 24px;
     line-height: 28px;
     font-weight: 400;
-    width: 30px;
     margin-right: 18px;
-    
-}
-
-.header__lang-link:last-of-type {
     text-decoration: none;
-    width: 29px;
- 
-
 }
-
 
 @media screen and (max-width: 568px) {
     .header__lang-link {
-        width: 22px;
         font-size: 18px;
         line-height: 20px;
         font-weight: 400;
-        
-
     }
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
 }
 
