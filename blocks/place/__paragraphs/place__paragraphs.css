@@ -1,0 +1,12 @@
+.place__paragraphs {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 26px;
+    margin: 0;
+}
+
+@media screen and (max-width: 964px) {
+    .place__paragraphs {
+      grid-gap: 25px;
+    }
+}
