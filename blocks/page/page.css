@@ -1,5 +1,4 @@
 .page {
-   
     background-color: #2a2c2f;
     color: #ffffff;
     font-weight: 400;
@@ -11,16 +10,11 @@
     margin: 0 auto;
     padding: 28px 0 24px;
     box-sizing: border-box;
-    
 }
-
-
 
 @media screen and (max-width: 568px) {
     .page {
-        padding: 16px 0 24px;  
+        padding: 16px 0 24px;
         margin: 0;
-
-        
     }
 }
